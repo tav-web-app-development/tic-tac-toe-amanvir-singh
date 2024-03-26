@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 34px);
+    grid-template-rows: repeat(3, 34px);
+    
+  }
+
+  .square {
+    background: white;
+    outline: 0.5px solid #999;
+    border: 0.5px solid #999 ;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+  }
+  #restart-button{
+    margin-top: 1rem;
+  }
